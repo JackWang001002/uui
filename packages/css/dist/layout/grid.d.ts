@@ -1,9 +1,8 @@
-import { CSSProperties } from "@yuejs/core";
-export declare const nCol: (_num: number | number[], _cellWidth: CSSProperties["width"], cellHeight: CSSProperties["height"], rowGap?: CSSProperties["rowGap"], columnGap?: CSSProperties["columnGap"]) => {
+export declare const nCol: (_num: number | number[], _cellWidth: CSSProperties, cellHeight: CSSProperties, rowGap?: CSSProperties, columnGap?: CSSProperties) => {
     display: string;
     justifyContent: string;
-    gridAutoRows: import("csstype").Property.Height<string | number> | undefined;
+    gridAutoRows: CSSProperties;
     gridTemplateColumns: string[];
-    rowGap: import("csstype").Property.RowGap<string | number>;
-    columnGap: import("csstype").Property.ColumnGap<string | number>;
+    rowGap: CSSProperties;
+    columnGap: CSSProperties;
 };

@@ -1,22 +1,21 @@
-import { CSSProperties } from "@yuejs/core";
 import { HVDirection } from "@c3/types";
-export declare const borderRadiusForGroup: (borderRadius: CSSProperties["borderRadius"], direction: HVDirection) => {
+export declare const borderRadiusForGroup: (borderRadius: CSSProperties, direction: HVDirection) => {
     "& > *:first-child": {
-        borderTopRightRadius: import("csstype").Property.BorderRadius<string | number> | undefined;
-        borderTopLeftRadius: import("csstype").Property.BorderRadius<string | number> | undefined;
+        borderTopRightRadius: CSSProperties;
+        borderTopLeftRadius: CSSProperties;
         borderBottomLeftRadius?: undefined;
     } | {
-        borderTopLeftRadius: import("csstype").Property.BorderRadius<string | number> | undefined;
-        borderBottomLeftRadius: import("csstype").Property.BorderRadius<string | number> | undefined;
+        borderTopLeftRadius: CSSProperties;
+        borderBottomLeftRadius: CSSProperties;
         borderTopRightRadius?: undefined;
     };
     "& > *:last-child": {
-        borderBottomLeftRadius: import("csstype").Property.BorderRadius<string | number> | undefined;
-        borderBottomRightRadius: import("csstype").Property.BorderRadius<string | number> | undefined;
+        borderBottomLeftRadius: CSSProperties;
+        borderBottomRightRadius: CSSProperties;
         borderTopRightRadius?: undefined;
     } | {
-        borderBottomRightRadius: import("csstype").Property.BorderRadius<string | number> | undefined;
-        borderTopRightRadius: import("csstype").Property.BorderRadius<string | number> | undefined;
+        borderBottomRightRadius: CSSProperties;
+        borderTopRightRadius: CSSProperties;
         borderBottomLeftRadius?: undefined;
     };
 };

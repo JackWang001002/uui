@@ -87,6 +87,7 @@
     "@typescript-eslint/eslint-plugin": "^5.52.0",
     "@typescript-eslint/parser": "^5.52.0",
     "@yuejs/ast": "^0.0.37",
+    "@yuejs/core": "^0.0.19",
     "@yuejs/react": "^0.0.42",
     "babel-loader": "^8.3.0",
     "eslint": "^8.34.0",
