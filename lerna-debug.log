@@ -1,0 +1,568 @@
+0 silly argv {
+0 silly argv   _: [ 'version' ],
+0 silly argv   'conventional-commits': true,
+0 silly argv   conventionalCommits: true,
+0 silly argv   'commit-hooks': false,
+0 silly argv   commitHooks: false,
+0 silly argv   y: true,
+0 silly argv   yes: true,
+0 silly argv   lernaVersion: '5.6.2',
+0 silly argv   '$0': 'node_modules/lerna/cli.js',
+0 silly argv   bump: 'patch'
+0 silly argv }
+1 notice cli v5.6.2
+2 verbose rootPath /Users/che3vinci/code/personal/unstyled-ui
+3 info versioning independent
+4 verbose packageConfigs Package manager 'pnpm' detected. Resolving packages using 'pnpm-workspace.yaml'.
+5 silly isAnythingCommitted
+6 verbose isAnythingCommitted 1
+7 silly getCurrentBranch
+8 verbose currentBranch feat/rollup
+9 silly remoteBranchExists
+10 silly isBehindUpstream
+11 silly isBehindUpstream feat/rollup is behind origin/feat/rollup by 0 commit(s) and ahead by 1
+12 silly hasTags
+13 verbose hasTags true
+14 silly git-describe.sync "@uui/animation@1.0.63-310-g2a3d40a" => {"lastTagName":"@uui/animation@1.0.63","lastVersion":"1.0.63","refCount":"310","sha":"2a3d40a","isDirty":false}
+15 info Looking for changed packages since @uui/animation@1.0.63
+16 silly checking diff packages/animation
+17 silly found diff in packages/animation/__test__/index.stories.tsx
+17 silly found diff in packages/animation/__tests__/slide.stories.tsx
+17 silly found diff in packages/animation/__tests__/spiner.stories.tsx
+17 silly found diff in packages/animation/__tests__/zoom.stories.tsx
+17 silly found diff in packages/animation/package.json
+17 silly found diff in packages/animation/rollup.config.mjs
+17 silly found diff in packages/animation/src/chains.ts
+17 silly found diff in packages/animation/src/core.ts
+17 silly found diff in packages/animation/src/fade.ts
+17 silly found diff in packages/animation/src/index.ts
+17 silly found diff in packages/animation/src/popup.ts
+17 silly found diff in packages/animation/src/scale.ts
+17 silly found diff in packages/animation/src/slide.ts
+17 silly found diff in packages/animation/src/spin.ts
+17 silly found diff in packages/animation/src/useAnime.ts
+17 silly found diff in packages/animation/src/zoom.ts
+17 silly found diff in packages/animation/vite.config.ts
+18 verbose filtered diff [
+18 verbose filtered diff   'packages/animation/__test__/index.stories.tsx',
+18 verbose filtered diff   'packages/animation/__tests__/slide.stories.tsx',
+18 verbose filtered diff   'packages/animation/__tests__/spiner.stories.tsx',
+18 verbose filtered diff   'packages/animation/__tests__/zoom.stories.tsx',
+18 verbose filtered diff   'packages/animation/package.json',
+18 verbose filtered diff   'packages/animation/rollup.config.mjs',
+18 verbose filtered diff   'packages/animation/src/chains.ts',
+18 verbose filtered diff   'packages/animation/src/core.ts',
+18 verbose filtered diff   'packages/animation/src/fade.ts',
+18 verbose filtered diff   'packages/animation/src/index.ts',
+18 verbose filtered diff   'packages/animation/src/popup.ts',
+18 verbose filtered diff   'packages/animation/src/scale.ts',
+18 verbose filtered diff   'packages/animation/src/slide.ts',
+18 verbose filtered diff   'packages/animation/src/spin.ts',
+18 verbose filtered diff   'packages/animation/src/useAnime.ts',
+18 verbose filtered diff   'packages/animation/src/zoom.ts',
+18 verbose filtered diff   'packages/animation/vite.config.ts'
+18 verbose filtered diff ]
+19 silly checking diff packages/atomic
+20 silly found diff in packages/atomic/__test__/Atomic.stories.tsx
+20 silly found diff in packages/atomic/__test__/Space.stories.tsx
+20 silly found diff in packages/atomic/__tests__/.cache/Atomic.stories.css
+20 silly found diff in packages/atomic/__tests__/.cache/Space.stories.css
+20 silly found diff in packages/atomic/__tests__/.cache/Text.stories.css
+20 silly found diff in packages/atomic/__tests__/Atomic.stories.tsx
+20 silly found diff in packages/atomic/__tests__/Space.stories.tsx
+20 silly found diff in packages/atomic/__tests__/Text.stories.tsx
+20 silly found diff in packages/atomic/package.json
+20 silly found diff in packages/atomic/rollup.config.mjs
+20 silly found diff in packages/atomic/src/.cache/Atomic.css
+20 silly found diff in packages/atomic/src/.cache/Space.css
+20 silly found diff in packages/atomic/src/Atomic.tsx
+20 silly found diff in packages/atomic/src/Button/Button.tsx
+20 silly found diff in packages/atomic/src/Button/__tests__/Button.ct.spec.tsx
+20 silly found diff in packages/atomic/src/Button/__tests__/Button.stories.tsx
+20 silly found diff in packages/atomic/src/Button/__tests__/Case1.tsx
+20 silly found diff in packages/atomic/src/Button/index.tsx
+20 silly found diff in packages/atomic/src/Button/useButton.tsx
+20 silly found diff in packages/atomic/src/Button/utils.ts
+20 silly found diff in packages/atomic/src/Eb/index.tsx
+20 silly found diff in packages/atomic/src/Image/.cache/Image.css
+20 silly found diff in packages/atomic/src/Image/Image.tsx
+20 silly found diff in packages/atomic/src/Image/Variants.tsx
+20 silly found diff in packages/atomic/src/Image/__tests__/.cache/Image.stories.css
+20 silly found diff in packages/atomic/src/Image/__tests__/Image.ct.spec.tsx
+20 silly found diff in packages/atomic/src/Image/__tests__/Image.stories.tsx
+20 silly found diff in packages/atomic/src/Image/index.tsx
+20 silly found diff in packages/atomic/src/Image/useLazyImg.ts
+20 silly found diff in packages/atomic/src/Link/.cache/Link.css
+20 silly found diff in packages/atomic/src/Link/Link.stories.tsx
+20 silly found diff in packages/atomic/src/Link/Link.tsx
+20 silly found diff in packages/atomic/src/Link/index.tsx
+20 silly found diff in packages/atomic/src/Link/utils.ts
+20 silly found diff in packages/atomic/src/Space.tsx
+20 silly found diff in packages/atomic/src/Text/Text.tsx
+20 silly found diff in packages/atomic/src/Text/TextWithTooltip.tsx
+20 silly found diff in packages/atomic/src/Text/Vairants.tsx
+20 silly found diff in packages/atomic/src/Text/index.ts
+20 silly found diff in packages/atomic/src/Text/types.ts
+20 silly found diff in packages/atomic/src/Text/utils.ts
+20 silly found diff in packages/atomic/src/index.ts
+20 silly found diff in packages/atomic/vite.config.ts
+21 verbose filtered diff [
+21 verbose filtered diff   'packages/atomic/__test__/Atomic.stories.tsx',
+21 verbose filtered diff   'packages/atomic/__test__/Space.stories.tsx',
+21 verbose filtered diff   'packages/atomic/__tests__/.cache/Atomic.stories.css',
+21 verbose filtered diff   'packages/atomic/__tests__/.cache/Space.stories.css',
+21 verbose filtered diff   'packages/atomic/__tests__/.cache/Text.stories.css',
+21 verbose filtered diff   'packages/atomic/__tests__/Atomic.stories.tsx',
+21 verbose filtered diff   'packages/atomic/__tests__/Space.stories.tsx',
+21 verbose filtered diff   'packages/atomic/__tests__/Text.stories.tsx',
+21 verbose filtered diff   'packages/atomic/package.json',
+21 verbose filtered diff   'packages/atomic/rollup.config.mjs',
+21 verbose filtered diff   'packages/atomic/src/.cache/Atomic.css',
+21 verbose filtered diff   'packages/atomic/src/.cache/Space.css',
+21 verbose filtered diff   'packages/atomic/src/Atomic.tsx',
+21 verbose filtered diff   'packages/atomic/src/Button/Button.tsx',
+21 verbose filtered diff   'packages/atomic/src/Button/__tests__/Button.ct.spec.tsx',
+21 verbose filtered diff   'packages/atomic/src/Button/__tests__/Button.stories.tsx',
+21 verbose filtered diff   'packages/atomic/src/Button/__tests__/Case1.tsx',
+21 verbose filtered diff   'packages/atomic/src/Button/index.tsx',
+21 verbose filtered diff   'packages/atomic/src/Button/useButton.tsx',
+21 verbose filtered diff   'packages/atomic/src/Button/utils.ts',
+21 verbose filtered diff   'packages/atomic/src/Eb/index.tsx',
+21 verbose filtered diff   'packages/atomic/src/Image/.cache/Image.css',
+21 verbose filtered diff   'packages/atomic/src/Image/Image.tsx',
+21 verbose filtered diff   'packages/atomic/src/Image/Variants.tsx',
+21 verbose filtered diff   'packages/atomic/src/Image/__tests__/.cache/Image.stories.css',
+21 verbose filtered diff   'packages/atomic/src/Image/__tests__/Image.ct.spec.tsx',
+21 verbose filtered diff   'packages/atomic/src/Image/__tests__/Image.stories.tsx',
+21 verbose filtered diff   'packages/atomic/src/Image/index.tsx',
+21 verbose filtered diff   'packages/atomic/src/Image/useLazyImg.ts',
+21 verbose filtered diff   'packages/atomic/src/Link/.cache/Link.css',
+21 verbose filtered diff   'packages/atomic/src/Link/Link.stories.tsx',
+21 verbose filtered diff   'packages/atomic/src/Link/Link.tsx',
+21 verbose filtered diff   'packages/atomic/src/Link/index.tsx',
+21 verbose filtered diff   'packages/atomic/src/Link/utils.ts',
+21 verbose filtered diff   'packages/atomic/src/Space.tsx',
+21 verbose filtered diff   'packages/atomic/src/Text/Text.tsx',
+21 verbose filtered diff   'packages/atomic/src/Text/TextWithTooltip.tsx',
+21 verbose filtered diff   'packages/atomic/src/Text/Vairants.tsx',
+21 verbose filtered diff   'packages/atomic/src/Text/index.ts',
+21 verbose filtered diff   'packages/atomic/src/Text/types.ts',
+21 verbose filtered diff   'packages/atomic/src/Text/utils.ts',
+21 verbose filtered diff   'packages/atomic/src/index.ts',
+21 verbose filtered diff   'packages/atomic/vite.config.ts'
+21 verbose filtered diff ]
+22 silly checking diff packages/css
+23 silly found diff in packages/css/__tests__/.cache/border.stories.css
+23 silly found diff in packages/css/__tests__/arrow.stories.tsx
+23 silly found diff in packages/css/__tests__/border.stories.tsx
+23 silly found diff in packages/css/__tests__/placement.stories.tsx
+23 silly found diff in packages/css/package.json
+23 silly found diff in packages/css/rollup.config.mjs
+23 silly found diff in packages/css/src/arrow.ts
+23 silly found diff in packages/css/src/bg.ts
+23 silly found diff in packages/css/src/border.ts
+23 silly found diff in packages/css/src/divider.ts
+23 silly found diff in packages/css/src/hidden.ts
+23 silly found diff in packages/css/src/index.ts
+23 silly found diff in packages/css/src/layout/abs.ts
+23 silly found diff in packages/css/src/layout/col.ts
+23 silly found diff in packages/css/src/layout/eqHeight.ts
+23 silly found diff in packages/css/src/layout/fixed.ts
+23 silly found diff in packages/css/src/layout/flex.ts
+23 silly found diff in packages/css/src/layout/gap.ts
+23 silly found diff in packages/css/src/layout/grid.ts
+23 silly found diff in packages/css/src/layout/index.ts
+23 silly found diff in packages/css/src/layout/list.ts
+23 silly found diff in packages/css/src/layout/misc.ts
+23 silly found diff in packages/css/src/layout/placement.ts
+23 silly found diff in packages/css/src/layout/row.ts
+23 silly found diff in packages/css/src/list.ts
+23 silly found diff in packages/css/src/mask.ts
+23 silly found diff in packages/css/src/pseudo.ts
+23 silly found diff in packages/css/src/text.ts
+23 silly found diff in packages/css/vite.config.ts
+24 verbose filtered diff [
+24 verbose filtered diff   'packages/css/__tests__/.cache/border.stories.css',
+24 verbose filtered diff   'packages/css/__tests__/arrow.stories.tsx',
+24 verbose filtered diff   'packages/css/__tests__/border.stories.tsx',
+24 verbose filtered diff   'packages/css/__tests__/placement.stories.tsx',
+24 verbose filtered diff   'packages/css/package.json',
+24 verbose filtered diff   'packages/css/rollup.config.mjs',
+24 verbose filtered diff   'packages/css/src/arrow.ts',
+24 verbose filtered diff   'packages/css/src/bg.ts',
+24 verbose filtered diff   'packages/css/src/border.ts',
+24 verbose filtered diff   'packages/css/src/divider.ts',
+24 verbose filtered diff   'packages/css/src/hidden.ts',
+24 verbose filtered diff   'packages/css/src/index.ts',
+24 verbose filtered diff   'packages/css/src/layout/abs.ts',
+24 verbose filtered diff   'packages/css/src/layout/col.ts',
+24 verbose filtered diff   'packages/css/src/layout/eqHeight.ts',
+24 verbose filtered diff   'packages/css/src/layout/fixed.ts',
+24 verbose filtered diff   'packages/css/src/layout/flex.ts',
+24 verbose filtered diff   'packages/css/src/layout/gap.ts',
+24 verbose filtered diff   'packages/css/src/layout/grid.ts',
+24 verbose filtered diff   'packages/css/src/layout/index.ts',
+24 verbose filtered diff   'packages/css/src/layout/list.ts',
+24 verbose filtered diff   'packages/css/src/layout/misc.ts',
+24 verbose filtered diff   'packages/css/src/layout/placement.ts',
+24 verbose filtered diff   'packages/css/src/layout/row.ts',
+24 verbose filtered diff   'packages/css/src/list.ts',
+24 verbose filtered diff   'packages/css/src/mask.ts',
+24 verbose filtered diff   'packages/css/src/pseudo.ts',
+24 verbose filtered diff   'packages/css/src/text.ts',
+24 verbose filtered diff   'packages/css/vite.config.ts'
+24 verbose filtered diff ]
+25 silly checking diff packages/form
+26 silly found diff in packages/form/__tests__/Select.stories.tsx
+26 silly found diff in packages/form/package.json
+26 silly found diff in packages/form/rollup.config.mjs
+26 silly found diff in packages/form/src/Input/.cache/Input.stories.css
+26 silly found diff in packages/form/src/Input/Input.stories.tsx
+26 silly found diff in packages/form/src/Input/Input.tsx
+26 silly found diff in packages/form/src/Input/_Input.tsx
+26 silly found diff in packages/form/src/Input/cssVariants.ts
+26 silly found diff in packages/form/src/Input/index.ts
+26 silly found diff in packages/form/src/Select/Select.tsx
+26 silly found diff in packages/form/src/Select/index.ts
+26 silly found diff in packages/form/src/Textarea/index.ts
+26 silly found diff in packages/form/vite.config.ts
+27 verbose filtered diff [
+27 verbose filtered diff   'packages/form/__tests__/Select.stories.tsx',
+27 verbose filtered diff   'packages/form/package.json',
+27 verbose filtered diff   'packages/form/rollup.config.mjs',
+27 verbose filtered diff   'packages/form/src/Input/.cache/Input.stories.css',
+27 verbose filtered diff   'packages/form/src/Input/Input.stories.tsx',
+27 verbose filtered diff   'packages/form/src/Input/Input.tsx',
+27 verbose filtered diff   'packages/form/src/Input/_Input.tsx',
+27 verbose filtered diff   'packages/form/src/Input/cssVariants.ts',
+27 verbose filtered diff   'packages/form/src/Input/index.ts',
+27 verbose filtered diff   'packages/form/src/Select/Select.tsx',
+27 verbose filtered diff   'packages/form/src/Select/index.ts',
+27 verbose filtered diff   'packages/form/src/Textarea/index.ts',
+27 verbose filtered diff   'packages/form/vite.config.ts'
+27 verbose filtered diff ]
+28 silly checking diff packages/layout
+29 silly found diff in packages/layout/__test__/Abs.stories.tsx
+29 silly found diff in packages/layout/__test__/Col.stories.tsx
+29 silly found diff in packages/layout/__test__/Fixed.stories.tsx
+29 silly found diff in packages/layout/__test__/Grid.stories.tsx
+29 silly found diff in packages/layout/__test__/Stack.stories.tsx
+29 silly found diff in packages/layout/__test__/box/Box-css.test.ts
+29 silly found diff in packages/layout/__test__/box/Box.stories.tsx
+29 silly found diff in packages/layout/__test__/box/Box.test.tsx
+29 silly found diff in packages/layout/__tests__/.cache/Abs.stories.css
+29 silly found diff in packages/layout/__tests__/.cache/Col.stories.css
+29 silly found diff in packages/layout/__tests__/Abs.stories.tsx
+29 silly found diff in packages/layout/__tests__/Col.stories.tsx
+29 silly found diff in packages/layout/__tests__/Fixed.stories.tsx
+29 silly found diff in packages/layout/__tests__/Grid.stories.tsx
+29 silly found diff in packages/layout/__tests__/Row.stories.tsx
+29 silly found diff in packages/layout/__tests__/Stack.stories.tsx
+29 silly found diff in packages/layout/__tests__/box/.cache/Box.stories.css
+29 silly found diff in packages/layout/__tests__/box/Box.stories.tsx
+29 silly found diff in packages/layout/__tests__/list/Issue.ct.spec.tsx
+29 silly found diff in packages/layout/__tests__/list/IssueForwardProps.tsx
+29 silly found diff in packages/layout/__tests__/list/List.stories.tsx
+29 silly found diff in packages/layout/package.json
+29 silly found diff in packages/layout/rollup.config.mjs
+29 silly found diff in packages/layout/src/.cache/Grid.css
+29 silly found diff in packages/layout/src/Abs.tsx
+29 silly found diff in packages/layout/src/AutoRC.tsx
+29 silly found diff in packages/layout/src/Box.tsx
+29 silly found diff in packages/layout/src/Col.tsx
+29 silly found diff in packages/layout/src/Fixed.tsx
+29 silly found diff in packages/layout/src/Grid.tsx
+29 silly found diff in packages/layout/src/List.tsx
+29 silly found diff in packages/layout/src/Relative.tsx
+29 silly found diff in packages/layout/src/Responsive.tsx
+29 silly found diff in packages/layout/src/Row.tsx
+29 silly found diff in packages/layout/src/Stack.tsx
+29 silly found diff in packages/layout/src/index.ts
+29 silly found diff in packages/layout/vite.config.ts
+30 verbose filtered diff [
+30 verbose filtered diff   'packages/layout/__test__/Abs.stories.tsx',
+30 verbose filtered diff   'packages/layout/__test__/Col.stories.tsx',
+30 verbose filtered diff   'packages/layout/__test__/Fixed.stories.tsx',
+30 verbose filtered diff   'packages/layout/__test__/Grid.stories.tsx',
+30 verbose filtered diff   'packages/layout/__test__/Stack.stories.tsx',
+30 verbose filtered diff   'packages/layout/__test__/box/Box-css.test.ts',
+30 verbose filtered diff   'packages/layout/__test__/box/Box.stories.tsx',
+30 verbose filtered diff   'packages/layout/__test__/box/Box.test.tsx',
+30 verbose filtered diff   'packages/layout/__tests__/.cache/Abs.stories.css',
+30 verbose filtered diff   'packages/layout/__tests__/.cache/Col.stories.css',
+30 verbose filtered diff   'packages/layout/__tests__/Abs.stories.tsx',
+30 verbose filtered diff   'packages/layout/__tests__/Col.stories.tsx',
+30 verbose filtered diff   'packages/layout/__tests__/Fixed.stories.tsx',
+30 verbose filtered diff   'packages/layout/__tests__/Grid.stories.tsx',
+30 verbose filtered diff   'packages/layout/__tests__/Row.stories.tsx',
+30 verbose filtered diff   'packages/layout/__tests__/Stack.stories.tsx',
+30 verbose filtered diff   'packages/layout/__tests__/box/.cache/Box.stories.css',
+30 verbose filtered diff   'packages/layout/__tests__/box/Box.stories.tsx',
+30 verbose filtered diff   'packages/layout/__tests__/list/Issue.ct.spec.tsx',
+30 verbose filtered diff   'packages/layout/__tests__/list/IssueForwardProps.tsx',
+30 verbose filtered diff   'packages/layout/__tests__/list/List.stories.tsx',
+30 verbose filtered diff   'packages/layout/package.json',
+30 verbose filtered diff   'packages/layout/rollup.config.mjs',
+30 verbose filtered diff   'packages/layout/src/.cache/Grid.css',
+30 verbose filtered diff   'packages/layout/src/Abs.tsx',
+30 verbose filtered diff   'packages/layout/src/AutoRC.tsx',
+30 verbose filtered diff   'packages/layout/src/Box.tsx',
+30 verbose filtered diff   'packages/layout/src/Col.tsx',
+30 verbose filtered diff   'packages/layout/src/Fixed.tsx',
+30 verbose filtered diff   'packages/layout/src/Grid.tsx',
+30 verbose filtered diff   'packages/layout/src/List.tsx',
+30 verbose filtered diff   'packages/layout/src/Relative.tsx',
+30 verbose filtered diff   'packages/layout/src/Responsive.tsx',
+30 verbose filtered diff   'packages/layout/src/Row.tsx',
+30 verbose filtered diff   'packages/layout/src/Stack.tsx',
+30 verbose filtered diff   'packages/layout/src/index.ts',
+30 verbose filtered diff   'packages/layout/vite.config.ts'
+30 verbose filtered diff ]
+31 silly checking diff packages/responsive
+32 silly found diff in packages/responsive/__test__/Text.tsx
+32 silly found diff in packages/responsive/__test__/useData.stories.tsx
+32 silly found diff in packages/responsive/__test__/utils.ts
+32 silly found diff in packages/responsive/package.json
+32 silly found diff in packages/responsive/rollup.config.mjs
+32 silly found diff in packages/responsive/src/device.ts
+32 silly found diff in packages/responsive/src/index.ts
+32 silly found diff in packages/responsive/src/px.ts
+32 silly found diff in packages/responsive/src/vw.ts
+32 silly found diff in packages/responsive/vite.config.ts
+33 verbose filtered diff [
+33 verbose filtered diff   'packages/responsive/__test__/Text.tsx',
+33 verbose filtered diff   'packages/responsive/__test__/useData.stories.tsx',
+33 verbose filtered diff   'packages/responsive/__test__/utils.ts',
+33 verbose filtered diff   'packages/responsive/package.json',
+33 verbose filtered diff   'packages/responsive/rollup.config.mjs',
+33 verbose filtered diff   'packages/responsive/src/device.ts',
+33 verbose filtered diff   'packages/responsive/src/index.ts',
+33 verbose filtered diff   'packages/responsive/src/px.ts',
+33 verbose filtered diff   'packages/responsive/src/vw.ts',
+33 verbose filtered diff   'packages/responsive/vite.config.ts'
+33 verbose filtered diff ]
+34 silly checking diff packages/uikits/ct-floating-ui
+35 silly found diff in packages/uikits/ct-floating-ui/__tests__/Dropdown.stories.tsx
+35 silly found diff in packages/uikits/ct-floating-ui/__tests__/Floating.stories.tsx
+35 silly found diff in packages/uikits/ct-floating-ui/__tests__/Popover.stories.tsx
+35 silly found diff in packages/uikits/ct-floating-ui/__tests__/Tooltip.stories.tsx
+35 silly found diff in packages/uikits/ct-floating-ui/__tests__/normal.css
+35 silly found diff in packages/uikits/ct-floating-ui/package.json
+35 silly found diff in packages/uikits/ct-floating-ui/readme.md
+35 silly found diff in packages/uikits/ct-floating-ui/rollup.config.mjs
+35 silly found diff in packages/uikits/ct-floating-ui/src/Base.tsx
+35 silly found diff in packages/uikits/ct-floating-ui/src/Dropdown.tsx
+35 silly found diff in packages/uikits/ct-floating-ui/src/Popover.tsx
+35 silly found diff in packages/uikits/ct-floating-ui/src/Tooltip.tsx
+35 silly found diff in packages/uikits/ct-floating-ui/src/index.ts
+35 silly found diff in packages/uikits/ct-floating-ui/tsconfig.json
+36 verbose filtered diff [
+36 verbose filtered diff   'packages/uikits/ct-floating-ui/__tests__/Dropdown.stories.tsx',
+36 verbose filtered diff   'packages/uikits/ct-floating-ui/__tests__/Floating.stories.tsx',
+36 verbose filtered diff   'packages/uikits/ct-floating-ui/__tests__/Popover.stories.tsx',
+36 verbose filtered diff   'packages/uikits/ct-floating-ui/__tests__/Tooltip.stories.tsx',
+36 verbose filtered diff   'packages/uikits/ct-floating-ui/__tests__/normal.css',
+36 verbose filtered diff   'packages/uikits/ct-floating-ui/package.json',
+36 verbose filtered diff   'packages/uikits/ct-floating-ui/readme.md',
+36 verbose filtered diff   'packages/uikits/ct-floating-ui/rollup.config.mjs',
+36 verbose filtered diff   'packages/uikits/ct-floating-ui/src/Base.tsx',
+36 verbose filtered diff   'packages/uikits/ct-floating-ui/src/Dropdown.tsx',
+36 verbose filtered diff   'packages/uikits/ct-floating-ui/src/Popover.tsx',
+36 verbose filtered diff   'packages/uikits/ct-floating-ui/src/Tooltip.tsx',
+36 verbose filtered diff   'packages/uikits/ct-floating-ui/src/index.ts',
+36 verbose filtered diff   'packages/uikits/ct-floating-ui/tsconfig.json'
+36 verbose filtered diff ]
+37 silly checking diff packages/uikits/ct-long-list
+38 silly found diff in packages/uikits/ct-long-list/__tests__/LongList.stories.tsx
+38 silly found diff in packages/uikits/ct-long-list/package.json
+38 silly found diff in packages/uikits/ct-long-list/readme.md
+38 silly found diff in packages/uikits/ct-long-list/rollup.config.mjs
+38 silly found diff in packages/uikits/ct-long-list/src/LongList.tsx
+38 silly found diff in packages/uikits/ct-long-list/src/index.ts
+38 silly found diff in packages/uikits/ct-long-list/tsconfig.json
+39 verbose filtered diff [
+39 verbose filtered diff   'packages/uikits/ct-long-list/__tests__/LongList.stories.tsx',
+39 verbose filtered diff   'packages/uikits/ct-long-list/package.json',
+39 verbose filtered diff   'packages/uikits/ct-long-list/readme.md',
+39 verbose filtered diff   'packages/uikits/ct-long-list/rollup.config.mjs',
+39 verbose filtered diff   'packages/uikits/ct-long-list/src/LongList.tsx',
+39 verbose filtered diff   'packages/uikits/ct-long-list/src/index.ts',
+39 verbose filtered diff   'packages/uikits/ct-long-list/tsconfig.json'
+39 verbose filtered diff ]
+40 silly checking diff packages/uikits/ct-modal
+41 silly found diff in packages/uikits/ct-modal/__tests__/index.stories.tsx
+41 silly found diff in packages/uikits/ct-modal/package.json
+41 silly found diff in packages/uikits/ct-modal/readme.md
+41 silly found diff in packages/uikits/ct-modal/rollup.config.mjs
+41 silly found diff in packages/uikits/ct-modal/src/Modal.tsx
+41 silly found diff in packages/uikits/ct-modal/src/index.ts
+41 silly found diff in packages/uikits/ct-modal/src/useModal.tsx
+41 silly found diff in packages/uikits/ct-modal/src/utils.ts
+41 silly found diff in packages/uikits/ct-modal/tsconfig.json
+42 verbose filtered diff [
+42 verbose filtered diff   'packages/uikits/ct-modal/__tests__/index.stories.tsx',
+42 verbose filtered diff   'packages/uikits/ct-modal/package.json',
+42 verbose filtered diff   'packages/uikits/ct-modal/readme.md',
+42 verbose filtered diff   'packages/uikits/ct-modal/rollup.config.mjs',
+42 verbose filtered diff   'packages/uikits/ct-modal/src/Modal.tsx',
+42 verbose filtered diff   'packages/uikits/ct-modal/src/index.ts',
+42 verbose filtered diff   'packages/uikits/ct-modal/src/useModal.tsx',
+42 verbose filtered diff   'packages/uikits/ct-modal/src/utils.ts',
+42 verbose filtered diff   'packages/uikits/ct-modal/tsconfig.json'
+42 verbose filtered diff ]
+43 silly checking diff packages/uikits/ct-nav
+44 silly found diff in packages/uikits/ct-nav/__test__/Tabs.stories.tsx
+44 silly found diff in packages/uikits/ct-nav/package.json
+44 silly found diff in packages/uikits/ct-nav/readme.md
+44 silly found diff in packages/uikits/ct-nav/rollup.config.mjs
+44 silly found diff in packages/uikits/ct-nav/src/Switcher.tsx
+44 silly found diff in packages/uikits/ct-nav/src/SwitcherWithHash.tsx
+44 silly found diff in packages/uikits/ct-nav/src/Variants.tsx
+44 silly found diff in packages/uikits/ct-nav/src/index.ts
+44 silly found diff in packages/uikits/ct-nav/src/useSteps.tsx
+44 silly found diff in packages/uikits/ct-nav/src/util.ts
+44 silly found diff in packages/uikits/ct-nav/tsconfig.json
+45 verbose filtered diff [
+45 verbose filtered diff   'packages/uikits/ct-nav/__test__/Tabs.stories.tsx',
+45 verbose filtered diff   'packages/uikits/ct-nav/package.json',
+45 verbose filtered diff   'packages/uikits/ct-nav/readme.md',
+45 verbose filtered diff   'packages/uikits/ct-nav/rollup.config.mjs',
+45 verbose filtered diff   'packages/uikits/ct-nav/src/Switcher.tsx',
+45 verbose filtered diff   'packages/uikits/ct-nav/src/SwitcherWithHash.tsx',
+45 verbose filtered diff   'packages/uikits/ct-nav/src/Variants.tsx',
+45 verbose filtered diff   'packages/uikits/ct-nav/src/index.ts',
+45 verbose filtered diff   'packages/uikits/ct-nav/src/useSteps.tsx',
+45 verbose filtered diff   'packages/uikits/ct-nav/src/util.ts',
+45 verbose filtered diff   'packages/uikits/ct-nav/tsconfig.json'
+45 verbose filtered diff ]
+46 silly checking diff packages/uikits/ct-page
+47 silly found diff in packages/uikits/ct-page/package.json
+47 silly found diff in packages/uikits/ct-page/readme.md
+47 silly found diff in packages/uikits/ct-page/rollup.config.mjs
+47 silly found diff in packages/uikits/ct-page/src/Page.stories.tsx
+47 silly found diff in packages/uikits/ct-page/src/Page.tsx
+47 silly found diff in packages/uikits/ct-page/src/index.ts
+47 silly found diff in packages/uikits/ct-page/test/add.test.ts
+47 silly found diff in packages/uikits/ct-page/tsconfig.json
+48 verbose filtered diff [
+48 verbose filtered diff   'packages/uikits/ct-page/package.json',
+48 verbose filtered diff   'packages/uikits/ct-page/readme.md',
+48 verbose filtered diff   'packages/uikits/ct-page/rollup.config.mjs',
+48 verbose filtered diff   'packages/uikits/ct-page/src/Page.stories.tsx',
+48 verbose filtered diff   'packages/uikits/ct-page/src/Page.tsx',
+48 verbose filtered diff   'packages/uikits/ct-page/src/index.ts',
+48 verbose filtered diff   'packages/uikits/ct-page/test/add.test.ts',
+48 verbose filtered diff   'packages/uikits/ct-page/tsconfig.json'
+48 verbose filtered diff ]
+49 verbose updated @uui/animation
+50 verbose updated @uui/atomic
+51 verbose updated @uui/css
+52 verbose updated @uui/form
+53 verbose updated @uui/layout
+54 verbose updated @uui/responsive
+55 verbose updated @uui/ct-floating-ui
+56 verbose updated @uui/ct-long-list
+57 verbose updated @uui/ct-modal
+58 verbose updated @uui/ct-nav
+59 verbose updated @uui/ct-page
+60 verbose git-describe undefined => "@uui/animation@1.0.63-310-g2a3d40a"
+61 silly git-describe parsed => {"lastTagName":"@uui/animation@1.0.63","lastVersion":"1.0.63","refCount":"310","sha":"2a3d40a","isDirty":false}
+62 info auto-confirmed
+63 info execute Skipping releases
+64 silly lifecycle No script for "preversion" in "root", continuing
+65 silly lifecycle No script for "preversion" in "@uui/css", continuing
+66 silly lifecycle No script for "preversion" in "@uui/responsive", continuing
+67 verbose version @uui/css has no lockfile. Skipping lockfile update.
+68 verbose version @uui/responsive has no lockfile. Skipping lockfile update.
+69 silly lifecycle No script for "version" in "@uui/css", continuing
+70 silly independent for @uui/css at /Users/che3vinci/code/personal/unstyled-ui/packages/css
+71 verbose getChangelogConfig using preset "conventional-changelog-angular"
+72 silly npa Result {
+72 silly npa   type: 'tag',
+72 silly npa   registry: true,
+72 silly npa   where: undefined,
+72 silly npa   raw: 'conventional-changelog-angular',
+72 silly npa   name: 'conventional-changelog-angular',
+72 silly npa   escapedName: 'conventional-changelog-angular',
+72 silly npa   scope: undefined,
+72 silly npa   rawSpec: '',
+72 silly npa   saveSpec: null,
+72 silly npa   fetchSpec: 'latest',
+72 silly npa   gitRange: undefined,
+72 silly npa   gitCommittish: undefined,
+72 silly npa   hosted: undefined
+72 silly npa }
+73 verbose getChangelogConfig Attempting to resolve preset "conventional-changelog-angular"
+74 info getChangelogConfig Successfully resolved preset "conventional-changelog-angular"
+75 silly lifecycle No script for "version" in "@uui/responsive", continuing
+76 silly independent for @uui/responsive at /Users/che3vinci/code/personal/unstyled-ui/packages/responsive
+77 silly independent writing new entry: "## [1.5.1](https://github.com/che3vinci/c3/compare/@uui/css@1.1.58...@uui/css@1.5.1) (2023-02-21)\n\n\n### Bug Fixes\n\n* animation ([0b4d772](https://github.com/che3vinci/c3/commit/0b4d772399ce7458029ad23f12320881a5e40b28))\n* atomic ([24f2ba3](https://github.com/che3vinci/c3/commit/24f2ba35d4f60a64f7572de17a4fd84e7241fd59))\n* fix ([1de5f81](https://github.com/che3vinci/c3/commit/1de5f81ab97fe4e23912538938f33c20fa3d4823))\n* fix ([552da1f](https://github.com/che3vinci/c3/commit/552da1f1b9f03dee6cc790e2debc35f83aae655c))\n* layout/css ([8f5b4bd](https://github.com/che3vinci/c3/commit/8f5b4bd1b12dc28e42b0a9aeaadbfee95a184908))\n* open ([0587314](https://github.com/che3vinci/c3/commit/05873145f068a2913bfd2f33ed48395e36976037))\n* space ([d624349](https://github.com/che3vinci/c3/commit/d624349cb0bcb06ac525b3d39284eeec15196a74))\n* type fix ([143358c](https://github.com/che3vinci/c3/commit/143358c6ed00506df945857b3f0cf8bf0577f98d))\n* update ([86e58ec](https://github.com/che3vinci/c3/commit/86e58eca9a12ffa567f6ec8b917ccb51667e858b))\n\n\n### Features\n\n* patch ([070a8c8](https://github.com/che3vinci/c3/commit/070a8c8bb6b7b2393d01617eb78ee1a1a60fd3a8))\n* refactor ([b03f90a](https://github.com/che3vinci/c3/commit/b03f90a58b9b48b10aa7a738806ef07e7034f9aa))\n* refactor ([4c8e4ca](https://github.com/che3vinci/c3/commit/4c8e4ca769bbb6fa98d0cc3fddf48d680c878c8e))\n* tsx ([996a8aa](https://github.com/che3vinci/c3/commit/996a8aa35cc9495647fe3b618c0c606cdd542a55))\n\n\n\n"
+78 silly independent writing new entry: "## [1.5.1](https://github.com/che3vinci/c3/compare/@uui/responsive@1.1.45...@uui/responsive@1.5.1) (2023-02-21)\n\n\n### Bug Fixes\n\n* claim token id ([c298a4d](https://github.com/che3vinci/c3/commit/c298a4d8f9d9401ffdf962de4480a7e64da7ec9e))\n* fix ([1de5f81](https://github.com/che3vinci/c3/commit/1de5f81ab97fe4e23912538938f33c20fa3d4823))\n* layout/css ([8f5b4bd](https://github.com/che3vinci/c3/commit/8f5b4bd1b12dc28e42b0a9aeaadbfee95a184908))\n* space ([d624349](https://github.com/che3vinci/c3/commit/d624349cb0bcb06ac525b3d39284eeec15196a74))\n* update ([86e58ec](https://github.com/che3vinci/c3/commit/86e58eca9a12ffa567f6ec8b917ccb51667e858b))\n* useprev ([93986a2](https://github.com/che3vinci/c3/commit/93986a2f1c68a904a1d7280ba33e76aed2ae77f1))\n\n\n### Features\n\n* patch ([070a8c8](https://github.com/che3vinci/c3/commit/070a8c8bb6b7b2393d01617eb78ee1a1a60fd3a8))\n* refactor ([b03f90a](https://github.com/che3vinci/c3/commit/b03f90a58b9b48b10aa7a738806ef07e7034f9aa))\n* refactor ([4c8e4ca](https://github.com/che3vinci/c3/commit/4c8e4ca769bbb6fa98d0cc3fddf48d680c878c8e))\n* useDelta ([1571a5b](https://github.com/che3vinci/c3/commit/1571a5b71a9c22f992ed5e98e1697a9113a928c5))\n\n\n\n"
+79 verbose independent wrote /Users/che3vinci/code/personal/unstyled-ui/packages/css/CHANGELOG.md
+80 silly lifecycle No script for "preversion" in "@uui/animation", continuing
+81 verbose independent wrote /Users/che3vinci/code/personal/unstyled-ui/packages/responsive/CHANGELOG.md
+82 verbose version @uui/animation has no lockfile. Skipping lockfile update.
+83 silly lifecycle No script for "version" in "@uui/animation", continuing
+84 silly independent for @uui/animation at /Users/che3vinci/code/personal/unstyled-ui/packages/animation
+85 silly independent writing new entry: "## [1.5.1](https://github.com/che3vinci/c3/compare/@uui/animation@1.0.63...@uui/animation@1.5.1) (2023-02-21)\n\n\n### Bug Fixes\n\n* animation ([731368e](https://github.com/che3vinci/c3/commit/731368e4a97dfd45e03966be78db14cf152e400c))\n* animation ([0b4d772](https://github.com/che3vinci/c3/commit/0b4d772399ce7458029ad23f12320881a5e40b28))\n* claim token id ([c298a4d](https://github.com/che3vinci/c3/commit/c298a4d8f9d9401ffdf962de4480a7e64da7ec9e))\n* fix ([1de5f81](https://github.com/che3vinci/c3/commit/1de5f81ab97fe4e23912538938f33c20fa3d4823))\n* layout/css ([8f5b4bd](https://github.com/che3vinci/c3/commit/8f5b4bd1b12dc28e42b0a9aeaadbfee95a184908))\n* longlist ([19b9f71](https://github.com/che3vinci/c3/commit/19b9f71feb3e5a051988c8b6669e459b1824d195))\n* modal ([1acb007](https://github.com/che3vinci/c3/commit/1acb0070e2a5675339c1721868b0153a00e9d662))\n* modal ([b2602e9](https://github.com/che3vinci/c3/commit/b2602e9c502c1335cace39ce7a192ba10622d138))\n* modal ([b83fe7a](https://github.com/che3vinci/c3/commit/b83fe7a82c60f4880f9d999c7c826553d486e81c))\n* popover ([e39fea5](https://github.com/che3vinci/c3/commit/e39fea5894baa57a79f757dad40d99cff2bb086c))\n* slide ([a60b1a6](https://github.com/che3vinci/c3/commit/a60b1a6cf69463b20bbbbb4f73b581d9c62ee351))\n* space ([d624349](https://github.com/che3vinci/c3/commit/d624349cb0bcb06ac525b3d39284eeec15196a74))\n* style ([cf2aaa0](https://github.com/che3vinci/c3/commit/cf2aaa0366dc59fc05a2f4f5232e546b532912c4))\n* style ([b982d00](https://github.com/che3vinci/c3/commit/b982d00ef03b1f2c31ca431b857ad66abf1a3980))\n* update ([86e58ec](https://github.com/che3vinci/c3/commit/86e58eca9a12ffa567f6ec8b917ccb51667e858b))\n* useprev ([2245b31](https://github.com/che3vinci/c3/commit/2245b31c42e207ce931b46beb99300ae087e5a72))\n* useprev ([bf2bcb7](https://github.com/che3vinci/c3/commit/bf2bcb78b4c7f0c2eb930914a29dfe16d8d25682))\n* useprev ([48049e1](https://github.com/che3vinci/c3/commit/48049e18f525dc765c12fd874b8e2a391403aa6a))\n\n\n### Features\n\n* add fix ([376da64](https://github.com/che3vinci/c3/commit/376da6494fe5412d3ab2c76eac2904beb6da78f1))\n* patch ([070a8c8](https://github.com/che3vinci/c3/commit/070a8c8bb6b7b2393d01617eb78ee1a1a60fd3a8))\n* refactor ([4c8e4ca](https://github.com/che3vinci/c3/commit/4c8e4ca769bbb6fa98d0cc3fddf48d680c878c8e))\n* tsconfig ([bcd480b](https://github.com/che3vinci/c3/commit/bcd480b6e6bcdb2251a7b9756d9811e14c8a863e))\n* tsx ([996a8aa](https://github.com/che3vinci/c3/commit/996a8aa35cc9495647fe3b618c0c606cdd542a55))\n\n\n\n"
+86 verbose independent wrote /Users/che3vinci/code/personal/unstyled-ui/packages/animation/CHANGELOG.md
+87 silly lifecycle No script for "preversion" in "@uui/atomic", continuing
+88 verbose version @uui/atomic has no lockfile. Skipping lockfile update.
+89 silly lifecycle No script for "version" in "@uui/atomic", continuing
+90 silly independent for @uui/atomic at /Users/che3vinci/code/personal/unstyled-ui/packages/atomic
+91 silly independent writing new entry: "## [1.5.1](https://github.com/che3vinci/c3/compare/@uui/atomic@1.1.37...@uui/atomic@1.5.1) (2023-02-21)\n\n\n### Bug Fixes\n\n* animation ([0b4d772](https://github.com/che3vinci/c3/commit/0b4d772399ce7458029ad23f12320881a5e40b28))\n* atomic ([24f2ba3](https://github.com/che3vinci/c3/commit/24f2ba35d4f60a64f7572de17a4fd84e7241fd59))\n* fix ([1de5f81](https://github.com/che3vinci/c3/commit/1de5f81ab97fe4e23912538938f33c20fa3d4823))\n* fix ([552da1f](https://github.com/che3vinci/c3/commit/552da1f1b9f03dee6cc790e2debc35f83aae655c))\n* layout/css ([8f5b4bd](https://github.com/che3vinci/c3/commit/8f5b4bd1b12dc28e42b0a9aeaadbfee95a184908))\n* modal ([1acb007](https://github.com/che3vinci/c3/commit/1acb0070e2a5675339c1721868b0153a00e9d662))\n* modal ([b83fe7a](https://github.com/che3vinci/c3/commit/b83fe7a82c60f4880f9d999c7c826553d486e81c))\n* space ([d624349](https://github.com/che3vinci/c3/commit/d624349cb0bcb06ac525b3d39284eeec15196a74))\n* testunit ([ac1b048](https://github.com/che3vinci/c3/commit/ac1b048dbc4dde4ac86fcc669bc86a113128bca1))\n* type fix ([143358c](https://github.com/che3vinci/c3/commit/143358c6ed00506df945857b3f0cf8bf0577f98d))\n* update ([86e58ec](https://github.com/che3vinci/c3/commit/86e58eca9a12ffa567f6ec8b917ccb51667e858b))\n* useprev ([93986a2](https://github.com/che3vinci/c3/commit/93986a2f1c68a904a1d7280ba33e76aed2ae77f1))\n\n\n### Features\n\n* add fix ([376da64](https://github.com/che3vinci/c3/commit/376da6494fe5412d3ab2c76eac2904beb6da78f1))\n* chrome-dev-toolx ([668b982](https://github.com/che3vinci/c3/commit/668b982a0bdb5b2d5c6d6e230503d5a722e294d6))\n* chrome-dev-toolx ([66d2886](https://github.com/che3vinci/c3/commit/66d2886ef03f914284d893e866cb56595176ca74))\n* cusror point ([a100b85](https://github.com/che3vinci/c3/commit/a100b85369a7a7b1519f5fe0a350d764868f0bfc))\n* init upload ([a75abd1](https://github.com/che3vinci/c3/commit/a75abd1091ff49297b5b1a3e507cffa6d02d2486))\n* patch ([070a8c8](https://github.com/che3vinci/c3/commit/070a8c8bb6b7b2393d01617eb78ee1a1a60fd3a8))\n* refactor ([b03f90a](https://github.com/che3vinci/c3/commit/b03f90a58b9b48b10aa7a738806ef07e7034f9aa))\n* refactor ([4c8e4ca](https://github.com/che3vinci/c3/commit/4c8e4ca769bbb6fa98d0cc3fddf48d680c878c8e))\n* switcher ([a2a83cd](https://github.com/che3vinci/c3/commit/a2a83cdfef193032a02557d596f3088581a7786a))\n* tsconfig ([bcd480b](https://github.com/che3vinci/c3/commit/bcd480b6e6bcdb2251a7b9756d9811e14c8a863e))\n* tsx ([996a8aa](https://github.com/che3vinci/c3/commit/996a8aa35cc9495647fe3b618c0c606cdd542a55))\n* useDelta ([1571a5b](https://github.com/che3vinci/c3/commit/1571a5b71a9c22f992ed5e98e1697a9113a928c5))\n\n\n\n"
+92 verbose independent wrote /Users/che3vinci/code/personal/unstyled-ui/packages/atomic/CHANGELOG.md
+93 silly lifecycle No script for "preversion" in "@uui/layout", continuing
+94 verbose version @uui/layout has no lockfile. Skipping lockfile update.
+95 silly lifecycle No script for "version" in "@uui/layout", continuing
+96 silly independent for @uui/layout at /Users/che3vinci/code/personal/unstyled-ui/packages/layout
+97 silly independent writing new entry: "## [1.5.1](https://github.com/che3vinci/c3/compare/@uui/layout@1.1.36...@uui/layout@1.5.1) (2023-02-21)\n\n\n### Bug Fixes\n\n* animation ([0b4d772](https://github.com/che3vinci/c3/commit/0b4d772399ce7458029ad23f12320881a5e40b28))\n* atomic ([24f2ba3](https://github.com/che3vinci/c3/commit/24f2ba35d4f60a64f7572de17a4fd84e7241fd59))\n* fix ([1de5f81](https://github.com/che3vinci/c3/commit/1de5f81ab97fe4e23912538938f33c20fa3d4823))\n* fix ([36b2986](https://github.com/che3vinci/c3/commit/36b29865b9ff6f763a5fa7aba6f3a1e5a40018c5))\n* fix ([552da1f](https://github.com/che3vinci/c3/commit/552da1f1b9f03dee6cc790e2debc35f83aae655c))\n* fuck ([f32eed7](https://github.com/che3vinci/c3/commit/f32eed74677c0e1c4e1bc5656cbeef6492c3cce4))\n* layout/css ([8f5b4bd](https://github.com/che3vinci/c3/commit/8f5b4bd1b12dc28e42b0a9aeaadbfee95a184908))\n* longlist ([a827748](https://github.com/che3vinci/c3/commit/a827748254682940ed5e70271e151a96afd79dba))\n* modal ([b2602e9](https://github.com/che3vinci/c3/commit/b2602e9c502c1335cace39ce7a192ba10622d138))\n* modal ([b83fe7a](https://github.com/che3vinci/c3/commit/b83fe7a82c60f4880f9d999c7c826553d486e81c))\n* popover ([e39fea5](https://github.com/che3vinci/c3/commit/e39fea5894baa57a79f757dad40d99cff2bb086c))\n* space ([d624349](https://github.com/che3vinci/c3/commit/d624349cb0bcb06ac525b3d39284eeec15196a74))\n* style ([cf2aaa0](https://github.com/che3vinci/c3/commit/cf2aaa0366dc59fc05a2f4f5232e546b532912c4))\n* type fix ([143358c](https://github.com/che3vinci/c3/commit/143358c6ed00506df945857b3f0cf8bf0577f98d))\n* update ([86e58ec](https://github.com/che3vinci/c3/commit/86e58eca9a12ffa567f6ec8b917ccb51667e858b))\n* useprev ([93986a2](https://github.com/che3vinci/c3/commit/93986a2f1c68a904a1d7280ba33e76aed2ae77f1))\n\n\n### Features\n\n* add fix ([376da64](https://github.com/che3vinci/c3/commit/376da6494fe5412d3ab2c76eac2904beb6da78f1))\n* chrome-dev-toolx ([668b982](https://github.com/che3vinci/c3/commit/668b982a0bdb5b2d5c6d6e230503d5a722e294d6))\n* init upload ([0946763](https://github.com/che3vinci/c3/commit/0946763536cbfa0b7b32591022236454a0d8c0f9))\n* init upload ([9f0b096](https://github.com/che3vinci/c3/commit/9f0b096f344f83be632e95c0038d472584a1b5e0))\n* patch ([070a8c8](https://github.com/che3vinci/c3/commit/070a8c8bb6b7b2393d01617eb78ee1a1a60fd3a8))\n* refactor ([b03f90a](https://github.com/che3vinci/c3/commit/b03f90a58b9b48b10aa7a738806ef07e7034f9aa))\n* refactor ([4c8e4ca](https://github.com/che3vinci/c3/commit/4c8e4ca769bbb6fa98d0cc3fddf48d680c878c8e))\n* tsconfig ([bcd480b](https://github.com/che3vinci/c3/commit/bcd480b6e6bcdb2251a7b9756d9811e14c8a863e))\n* tsx ([996a8aa](https://github.com/che3vinci/c3/commit/996a8aa35cc9495647fe3b618c0c606cdd542a55))\n* useDelta ([1571a5b](https://github.com/che3vinci/c3/commit/1571a5b71a9c22f992ed5e98e1697a9113a928c5))\n* useDelta ([0b6b353](https://github.com/che3vinci/c3/commit/0b6b353a05c112be2e38040c0796dabd35ba5bcd))\n\n\n\n"
+98 verbose independent wrote /Users/che3vinci/code/personal/unstyled-ui/packages/layout/CHANGELOG.md
+99 silly lifecycle No script for "preversion" in "@uui/ct-floating-ui", continuing
+100 silly lifecycle No script for "preversion" in "@uui/ct-long-list", continuing
+101 silly lifecycle No script for "preversion" in "@uui/ct-modal", continuing
+102 silly lifecycle No script for "preversion" in "@uui/ct-nav", continuing
+103 silly lifecycle No script for "preversion" in "@uui/ct-page", continuing
+104 verbose version @uui/ct-floating-ui has no lockfile. Skipping lockfile update.
+105 verbose version @uui/ct-modal has no lockfile. Skipping lockfile update.
+106 verbose version @uui/ct-long-list has no lockfile. Skipping lockfile update.
+107 verbose version @uui/ct-nav has no lockfile. Skipping lockfile update.
+108 verbose version @uui/ct-page has no lockfile. Skipping lockfile update.
+109 silly lifecycle No script for "version" in "@uui/ct-modal", continuing
+110 silly independent for @uui/ct-modal at /Users/che3vinci/code/personal/unstyled-ui/packages/uikits/ct-modal
+111 silly lifecycle No script for "version" in "@uui/ct-floating-ui", continuing
+112 silly independent for @uui/ct-floating-ui at /Users/che3vinci/code/personal/unstyled-ui/packages/uikits/ct-floating-ui
+113 silly lifecycle No script for "version" in "@uui/ct-page", continuing
+114 silly independent for @uui/ct-page at /Users/che3vinci/code/personal/unstyled-ui/packages/uikits/ct-page
+115 silly lifecycle No script for "version" in "@uui/ct-long-list", continuing
+116 silly independent for @uui/ct-long-list at /Users/che3vinci/code/personal/unstyled-ui/packages/uikits/ct-long-list
+117 silly lifecycle No script for "version" in "@uui/ct-nav", continuing
+118 silly independent for @uui/ct-nav at /Users/che3vinci/code/personal/unstyled-ui/packages/uikits/ct-nav
+119 silly independent writing new entry: "## [1.5.1](https://github.com/che3vinci/unstyled-ui/compare/@uui/ct-modal@1.0.12...@uui/ct-modal@1.5.1) (2023-02-21)\n\n\n### Bug Fixes\n\n* fix ([1de5f81](https://github.com/che3vinci/unstyled-ui/commit/1de5f81ab97fe4e23912538938f33c20fa3d4823))\n* fix ([552da1f](https://github.com/che3vinci/unstyled-ui/commit/552da1f1b9f03dee6cc790e2debc35f83aae655c))\n\n\n### Features\n\n* tsconfig ([bcd480b](https://github.com/che3vinci/unstyled-ui/commit/bcd480b6e6bcdb2251a7b9756d9811e14c8a863e))\n\n\n\n"
+120 verbose independent wrote /Users/che3vinci/code/personal/unstyled-ui/packages/uikits/ct-modal/CHANGELOG.md
+121 silly independent writing new entry: "## 1.5.1 (2023-02-21)\n\n\n### Bug Fixes\n\n* fix ([1de5f81](https://github.com/che3vinci/unstyled-ui/commit/1de5f81ab97fe4e23912538938f33c20fa3d4823))\n* type fix ([143358c](https://github.com/che3vinci/unstyled-ui/commit/143358c6ed00506df945857b3f0cf8bf0577f98d))\n\n\n### Features\n\n* tsconfig ([bcd480b](https://github.com/che3vinci/unstyled-ui/commit/bcd480b6e6bcdb2251a7b9756d9811e14c8a863e))\n\n\n\n"
+122 verbose independent wrote /Users/che3vinci/code/personal/unstyled-ui/packages/uikits/ct-floating-ui/CHANGELOG.md
+123 silly lifecycle No script for "preversion" in "@uui/form", continuing
+124 silly independent writing new entry: "## [1.5.1](https://github.com/che3vinci/unstyled-ui/compare/@uui/ct-page@1.0.13...@uui/ct-page@1.5.1) (2023-02-21)\n\n\n### Bug Fixes\n\n* fix ([1de5f81](https://github.com/che3vinci/unstyled-ui/commit/1de5f81ab97fe4e23912538938f33c20fa3d4823))\n* fix ([552da1f](https://github.com/che3vinci/unstyled-ui/commit/552da1f1b9f03dee6cc790e2debc35f83aae655c))\n\n\n### Features\n\n* tsconfig ([bcd480b](https://github.com/che3vinci/unstyled-ui/commit/bcd480b6e6bcdb2251a7b9756d9811e14c8a863e))\n\n\n\n"
+125 silly independent writing new entry: "## 1.5.1 (2023-02-21)\n\n\n### Bug Fixes\n\n* fix ([1de5f81](https://github.com/che3vinci/unstyled-ui/commit/1de5f81ab97fe4e23912538938f33c20fa3d4823))\n* type fix ([143358c](https://github.com/che3vinci/unstyled-ui/commit/143358c6ed00506df945857b3f0cf8bf0577f98d))\n\n\n### Features\n\n* tsconfig ([bcd480b](https://github.com/che3vinci/unstyled-ui/commit/bcd480b6e6bcdb2251a7b9756d9811e14c8a863e))\n\n\n\n"
+126 verbose independent wrote /Users/che3vinci/code/personal/unstyled-ui/packages/uikits/ct-page/CHANGELOG.md
+127 verbose version @uui/form has no lockfile. Skipping lockfile update.
+128 verbose independent wrote /Users/che3vinci/code/personal/unstyled-ui/packages/uikits/ct-long-list/CHANGELOG.md
+129 silly independent writing new entry: "## 1.5.1 (2023-02-21)\n\n\n### Bug Fixes\n\n* fix ([1de5f81](https://github.com/che3vinci/unstyled-ui/commit/1de5f81ab97fe4e23912538938f33c20fa3d4823))\n* fix ([36b2986](https://github.com/che3vinci/unstyled-ui/commit/36b29865b9ff6f763a5fa7aba6f3a1e5a40018c5))\n\n\n### Features\n\n* tsconfig ([bcd480b](https://github.com/che3vinci/unstyled-ui/commit/bcd480b6e6bcdb2251a7b9756d9811e14c8a863e))\n\n\n\n"
+130 verbose independent wrote /Users/che3vinci/code/personal/unstyled-ui/packages/uikits/ct-nav/CHANGELOG.md
+131 silly lifecycle No script for "version" in "@uui/form", continuing
+132 silly independent for @uui/form at /Users/che3vinci/code/personal/unstyled-ui/packages/form
+133 silly independent writing new entry: "## [1.5.1](https://github.com/che3vinci/c3/compare/@uui/form@1.1.33...@uui/form@1.5.1) (2023-02-21)\n\n\n### Bug Fixes\n\n* atomic ([24f2ba3](https://github.com/che3vinci/c3/commit/24f2ba35d4f60a64f7572de17a4fd84e7241fd59))\n* fix ([1de5f81](https://github.com/che3vinci/c3/commit/1de5f81ab97fe4e23912538938f33c20fa3d4823))\n* layout/css ([8f5b4bd](https://github.com/che3vinci/c3/commit/8f5b4bd1b12dc28e42b0a9aeaadbfee95a184908))\n* space ([d624349](https://github.com/che3vinci/c3/commit/d624349cb0bcb06ac525b3d39284eeec15196a74))\n* style ([16cbc55](https://github.com/che3vinci/c3/commit/16cbc55dc1b47a9e8294feaf5a78ce2b1c373907))\n* style ([ac83f6a](https://github.com/che3vinci/c3/commit/ac83f6a1924297df313ce2518e2910f2ddaadb7d))\n* style order ([f558359](https://github.com/che3vinci/c3/commit/f558359680b19d0a303f23254d057d924dc2d69b))\n* type fix ([143358c](https://github.com/che3vinci/c3/commit/143358c6ed00506df945857b3f0cf8bf0577f98d))\n* update ([86e58ec](https://github.com/che3vinci/c3/commit/86e58eca9a12ffa567f6ec8b917ccb51667e858b))\n* useprev ([2245b31](https://github.com/che3vinci/c3/commit/2245b31c42e207ce931b46beb99300ae087e5a72))\n* useprev ([93986a2](https://github.com/che3vinci/c3/commit/93986a2f1c68a904a1d7280ba33e76aed2ae77f1))\n* useprev ([398b1e5](https://github.com/che3vinci/c3/commit/398b1e5190d4cd667bc967435ed4da0eca9b1237))\n* useprev ([48049e1](https://github.com/che3vinci/c3/commit/48049e18f525dc765c12fd874b8e2a391403aa6a))\n\n\n### Features\n\n* patch ([070a8c8](https://github.com/che3vinci/c3/commit/070a8c8bb6b7b2393d01617eb78ee1a1a60fd3a8))\n* refactor ([b03f90a](https://github.com/che3vinci/c3/commit/b03f90a58b9b48b10aa7a738806ef07e7034f9aa))\n* refactor ([4c8e4ca](https://github.com/che3vinci/c3/commit/4c8e4ca769bbb6fa98d0cc3fddf48d680c878c8e))\n* tsconfig ([bcd480b](https://github.com/che3vinci/c3/commit/bcd480b6e6bcdb2251a7b9756d9811e14c8a863e))\n\n\n\n"
+134 verbose independent wrote /Users/che3vinci/code/personal/unstyled-ui/packages/form/CHANGELOG.md
+135 verbose version Updating root pnpm-lock.yaml
+136 error Error: Command failed with exit code 1: pnpm install --lockfile-only --ignore-scripts
+136 error Scope: all 12 workspace projects
+136 error  WARN  `node_modules` is present. Lockfile only installation will make it out-of-date
+136 error /Users/che3vinci/code/personal/unstyled-ui/packages/animation:
+136 error  ERR_PNPM_NO_MATCHING_VERSION_INSIDE_WORKSPACE  In packages/animation: No matching version found for @uui/core@^1.1.57 inside the workspace
+136 error
+136 error This error happened while installing a direct dependency of /Users/che3vinci/code/personal/unstyled-ui/packages/animation
+136 error     at makeError (/Users/che3vinci/code/personal/unstyled-ui/node_modules/.pnpm/execa@5.1.1/node_modules/execa/lib/error.js:60:11)
+136 error     at handlePromise (/Users/che3vinci/code/personal/unstyled-ui/node_modules/.pnpm/execa@5.1.1/node_modules/execa/index.js:118:26)
+136 error     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+136 error     at async Promise.all (index 0)

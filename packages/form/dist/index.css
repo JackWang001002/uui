@@ -1,0 +1,13 @@
+@layer Input.tsx-__Row-jsCYdB;
+
+@layer _Input.tsx-_Input-gHJIyl;
+
+
+
+
+@layer Input.tsx-__Row-jsCYdB {.baseStyle-hJWExS > input{height:100%;flex-grow:1;background:transparent;outline:none;border:none}.baseStyle-hJWExS[disabled]{cursor:not-allowed}
+.baseStyle-hJWExS[disabled] input{cursor:not-allowed}
+}
+
+
+@layer _Input.tsx-_Input-gHJIyl {.baseStyle-cyFWxL{-webkit-appearance:none;appearance:none;outline:none}}

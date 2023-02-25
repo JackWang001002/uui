@@ -1,0 +1,15 @@
+@layer Page.tsx-__Viewport-hFRdZq;
+
+@layer Page.tsx-__Main-bsmWFx;
+
+@layer Page.tsx-Page-fNsJtV;
+
+@layer Page.tsx-__Viewport-hFRdZq {.baseStyle-buaGVr{width:100vw;fx:center}}
+
+@layer Page.tsx-__Main-bsmWFx {.baseStyle-gdLUOP{min-height:100vh}
+.baseStyle-gdLUOP > *{width:100%}
+.variants-w-dynamic-fstFxH{width:var(--variants-w-dynamic)}
+}
+
+@layer Page.tsx-Page-fNsJtV {
+}

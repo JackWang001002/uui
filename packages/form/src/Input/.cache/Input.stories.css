@@ -1,0 +1,30 @@
+@layer Atomic.tsx-Atomic-kXriSP,Space.tsx-Space-jlVbLL;
+
+@layer Atomic.tsx-Atomic-kXriSP,Link.tsx-Link-aUvzs;
+
+@layer Atomic.tsx-Atomic-kXriSP,Button.tsx-__Button-bpBBDm;
+
+@layer Button.tsx-Button-hvVLpK;
+
+@layer Atomic.tsx-Atomic-kXriSP,Text.tsx-Text-eyFYCB,Vairants.tsx-Title-lblaiV;
+
+@layer Atomic.tsx-Atomic-kXriSP,Text.tsx-Text-eyFYCB,Vairants.tsx-SubTitle-brnzQt;
+
+@layer Atomic.tsx-Atomic-kXriSP,Text.tsx-Text-eyFYCB,Vairants.tsx-Description-cdJwnL;
+
+@layer Atomic.tsx-Atomic-kXriSP,Image.tsx-_Image-lpdcfQ;
+
+@layer Variants.tsx-Avatar-csbyLG;
+
+@layer Input.stories.tsx-_Default-hjbmjU;
+
+@layer Input.stories.tsx-_Default-hjbmjU {.baseStyle-gWalpE{width:456px;height:60px;backgroud:rgba(255, 255, 255, 0.03)}.baseStyle-gWalpE input{padding-left:22px;caret-color:#0CFFA7;color:White}
+.baseStyle-gWalpE input _placeholder{color:white}
+.baseStyle-gWalpE:focus-within{border:1px solid #0CFFA7}
+.baseStyle-gWalpE:focus-within input _placeholder{color:#FFFFFF}
+.baseStyle-gWalpE[disabled]{border:1px solid rgba(255, 255, 255, 0.05)}
+.baseStyle-gWalpE[disabled] input _placeholder{color:rgba(255, 255, 255, 0.3)}
+.variants-status-error-weVJB{border:1px solid #D13333}
+}
+
+.css-bdKGQi{width:24px;height:24px}
