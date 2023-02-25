@@ -6,4 +6,4 @@ import { Placement } from "@c3/types";
  * @param placement
  * @returns
  */
-export declare const getPopoverPos: (placement: Placement, parentBoxW?: number | string, parentBoxH?: number | string) => CSSProperties;
+export declare const getPopoverPos: (placement: Placement, parentBoxW?: number | string, parentBoxH?: number | string) => import("@yuejs/core").CSSProperties;
